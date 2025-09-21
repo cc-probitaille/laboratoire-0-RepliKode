@@ -156,7 +156,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 1. Le Joueur demande à démarrer le jeu en s'identifiant.
 1. Le Joueur demande à lancer les dés.
-1. Le Système affiche le nom du joueur et le résultat de la partie, ainsi que le nombre de parties et le nombre de fois que le Joueur a gagné. Pour un lancer, si le total est égal à sept, le Joueur a gagné. Dans tous les autres cas, il a perdu.
+1. Le Système affiche le nom du joueur et le résultat de la partie, ainsi que le nombre de parties et le nombre de fois que le Joueur a gagné. Pour un lancer, si le total est inférieur ou égal à 10, le Joueur a gagné. Dans tous les autres cas, il a perdu.
 
 *Le Joueur répète l'étape 3 jusqu'à ce qu'il ait fini.*
 
@@ -169,7 +169,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ### Modèle du domaine
 
-![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/mdd.puml)
+![Diagramme de classe du Modèle du domaine](https://www.plantuml.com/plantuml/svg/NOxTIiD048NlzoaEyS8VY52zouLK6X2A1K5VO9eTahNx4tPsBKLy7_CSUJ59ABLwEUVxvimi9L5CsLbiwbh9plYU8Zb8EbY6f6YQYPwHnnZ3_gqppSwp2Ex-erMm8UAYZNHGdT4CTdqwmB7RSXILJBACJT3ZjsNe31qS6S-u8arz6eSfMtE6PkXna6bSTRTOJC4pHKV-MZMMHB0EcNF4fm9ySAZmcgBnxJHkNoWcmu8AngVpv8bQFmudydNigiTXBleWEtN-XMlEDTVZ8EeI918QGya4B-huGN5JeDHXxqiKY-9NHuNta1aF9t5He8ocxLA9uhwOhrQmv9jPEktDNkxF9UCRcnCUr9Azpix-0000)
 
 ### Diagramme de séquence système (DSS)
 
@@ -177,7 +177,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ### Diagramme de classes logicielles
 
-![Diagramme de classes logicielles](https://www.plantuml.com/plantuml/svg/pLHDRnf13BtpAwoSY828LEbbWr1GIQgYbYRa1qHcnqLJxSvix1aAGldlrNvDTW5HjPToMUqyUvuzVhRln24xdoQTE44Hc1BiEW00WvSr9kGv0kFJ9N41zfQC8iJTomZMLgiIt7Dyw-1I76FieEHKz0Dzue0sZemIk6UsN8NfxMhdDuYjeWPBUVcBMMEYrICofkI8oyirrQIwtA8iUMw6mq0oivuyXvSPcqOWZhLPrSZoAvgOM5hFRU2VSMMeRUqTqA08QgDvRjDkmtZPykebHoBLuB4mfQbTybNkjuSvEtl-Fi-n7JIYty9Um02qWzt2MwZNtBe7wutwYsBVXCkJX0dLzdwZnSc_oKL-IbEI8DZFGZ-9u1jce_9P_KhKSUMYhYEOKdtu40uzHIao4y_8dn0bZy0dx8uurUPFB8tnQ2eOqc_wCZKpgvLib61XlQFtfkNY6449Ls1iZMERZz-CV1GALnVsXF48NQjKJAyHBEZLaxXHCNqorR7JrY1l-u2c_ZnvukrpyR2hHsGXzIHzM51iMGMjq6p7upvmtcuBaimQeL5n_RYZeOsBO4uRz-1D4RNLwgLQvvpYu8No7lza5NqS3hl58Igp-PzfjnT6ewVFMkxsg9nrgjfeTp3CaoohbnrjCYQHIPP5KFrVJR8iqJ7cN6Nlf5gfX7uXKsl33ugPbGPzM9I3mHWkhY-gdNY8Jwdplb62SxqGxiWedoQ_0G00)
+![Diagramme de classes logicielles](https://www.plantuml.com/plantuml/svg/pLJDRXen4Bxp5AESY828jEbbWr1GDwcAMfAG1uZCUefSxTgR6Pk24EzUxP_Z1KJLNifbjVvcvfl_kMChoBeixIIfO8OOOTi101YyhaIAZYBGBbiWbM1lGO8PgNiPmSeeMO5xYhkEMB0baLYeE2N-42wrW6kBMZBS4ncgtVIsZV8E4YCnOAcCl-gLI9Ly4YGoj4YLSKCrgOrRb1NFpN3eIQR6eIEVcJPP16n9wMM3BBu9dI1nAzq0_oAM6jlItW6DO1PAAvgPh1i8BrjQlVI8fmOyvgOIjKk-BFJsC6kcBu-p0jj2uFqMzXnweEti5dQ-NZDZ7upJyY-AVUED9ocXa9lxjMBB_zOkT376oBvXFyl-SGJVHJwgqkhNJHtNAl8wWXYRnuVmyT4_UX8pGOGqHNUYGuKxEY6tI9dIVs89TYLifyybr2KC8slQ6jHZRfp5zmccyXb11TTWOhGbK-pY55tagzXK-OJm25shL8Hl4SpnpI7RKRcA7Al4AgC5RVeWTFDvTaYRbpAngoT1ZFAP-p37n93qZHDwCnxtWOhPcoFdHZEEIlFZYXhNDe8Phks3qwNNrjnNtJhd40UlM0pyPoFnqt3OBHzH5St_3BjzFOAPFkjsjrVbh4DLMjc3PPxaUNFvS9qJCa_oF8Bw_sgIvwbAHC5LpKwcf4pnbo1idVj1kRCSqFkhEHYCuUBweZwGXtYCdVUBufMRWt27Mhei_Gq0)
 
 ### Contrats d'opération et Réalisations de cas d'utilisation (RDCU)
 
@@ -204,12 +204,13 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 - d1.valeur est devenue un nombre entier aléatoire entre 1 et 6
 - d2.valeur est devenue un nombre entier aléatoire entre 1 et 6
+- d3.valeur est devenue un nombre entier aléatoire entre 1 et 6
 - j.nbLancers a été incrémenté sur une base de correspondance avec nom
-- j.nbLancersGagnés a été incrémenté si la totale de d1.valeur et d2.valeur est égale à 7
+- j.nbLancersGagnés a été incrémenté si la somme totale de d1.valeur, d2.valeur et d3.valeur est inférieure ou égale à 10
 
 **RDCU**
 
-![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-jouer.puml)
+![Diagramme de séquence, jouer](https://www.plantuml.com/plantuml/svg/bP7DIiD058NtUOg3gueMJBCBjWYDY88Y_gtSJ9FRcfZS6UxS57qlty0NaqcrsA3LBcOpvvpld4bEl1hHjgaZ_rooCs8QU7sj2Lwbp7jAGNFJrZgth6mQmWD9OTX4McfDkCcczt2s5LIs9OcS4ItpqXbMxAKNr6QKaT-3ySWtnU1lnQUFV6dSyQrAoOl3Y-voqlchPZDGn6b6dLB4FMMqLaOz9LahIQy-NNMjggBX94UwUiE0RRCViLM2b8idHGfFjMLCBQkylzNKIfGF9rKJ4XWZVo89vzVWdHZsSoiD2Sup4CFEAb8VA4MC53CntfCCVaoVlZWINNkNCSPOccx5TlTe1tBmBaV_9ISxa8DtcVoJN255oVdLx3hyA_9RwTPf-1e7OVX1w3WU8pwAW1z0PsR1rF60tud41QnRBt4OWxy8VmzVVBT_5cv9dH0NRLD_0000)
 
 #### Opération: `terminerJeu(nom:String)`
 
