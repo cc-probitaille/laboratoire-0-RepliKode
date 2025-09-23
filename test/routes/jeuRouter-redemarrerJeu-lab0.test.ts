@@ -25,4 +25,11 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
   it('devrait valider la postcondition : plus de joueurs dans le jeu', async () => {
     expect(controleurJeu.joueurs).toEqual('[]');
   });
+
+  // Test que jouer après redémarrage retourne bien 404
+  it('devrait contenir un test qui retourne 404 après redemarrerJeu()', async () => {
+    await request.get('/api/v1/jeu/redemarrerJeu');
+    const response = await request.get('/api/v1/jeu/jouer/Joueur1');
+    expect(response.status).toBe(404);
+  });
 });
